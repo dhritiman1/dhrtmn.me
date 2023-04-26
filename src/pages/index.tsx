@@ -1,6 +1,7 @@
+import Links from "@/components/Links";
 import MainLayout from "@/components/MainLayout";
+import links from "@/lib/links";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Home() {
   const age =
@@ -15,11 +16,10 @@ export default function Home() {
     <>
       <MainLayout title="dhritiman">
         <div className="flex w-screen justify-end">
-          <div className="flex justify-between w-[19rem] px-9 py-3 pt-4">
+          <div className="flex justify-between w-[16rem] px-9 py-3 pt-4">
             <Link href="">projects</Link>
             <Link href="">blogs</Link>
             <Link href="https://github.com/dhritiman1">github</Link>
-            <Link href="/socials">socials</Link>
           </div>
         </div>
         <div className="w-full px-10 md:p-0 lg:p-0 md:w-[45rem] lg:w-[55rem]">
@@ -28,6 +28,7 @@ export default function Home() {
             i&apos;m a <span className="w-[10rem]">{Math.floor(age)}</span>{" "}
             years old student. ...
           </p>
+          <Links links={links} />
         </div>
       </MainLayout>
     </>
