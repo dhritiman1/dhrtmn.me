@@ -13,10 +13,10 @@ const MainLayout = ({ children, title }: Props) => {
         <title>{title}</title>
       </Head>
       <div
-        className={`noise absolute min-h-screen min-w-full opacity-40 bg-[url('../../public/grain.png')]`}
+        className={`noise absolute min-h-screen min-w-full opacity-40 bg-noise -z-10`}
       ></div>
       <main
-        className={`flex bg-transparent min-h-screen flex-col items-center justify-between`}
+        className={`flex bg-transparent min-h-screen flex-col items-center`}
       >
         {children}
       </main>
