@@ -5,13 +5,13 @@ type Props = {
   links: Ls;
 };
 
-const Links = ({ links }: Props) => {
+const Socials = ({ links }: Props) => {
   return (
     <>
       <p className="py-2">
         find me on{" "}
         {links.map((link) => {
-          return <LinkSection key={link.key} name={link.name} url={link.url} />;
+          return <NthSocial key={link.key} name={link.name} url={link.url} />;
         })}
         .
       </p>
@@ -22,7 +22,7 @@ const Links = ({ links }: Props) => {
   );
 };
 
-const LinkSection = ({ name, url }: L) => {
+const NthSocial = ({ name, url }: L) => {
   return (
     <>
       <Link href={url}>{name}</Link>
@@ -31,4 +31,4 @@ const LinkSection = ({ name, url }: L) => {
   );
 };
 
-export default Links;
+export default Socials;
