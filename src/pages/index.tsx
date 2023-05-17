@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <MainLayout title="home">
-        <div className="flex w-screen justify-end">
-          <div className="flex justify-between w-[16rem] px-9 py-3 pt-4">
+        <div className="flex w-full justify-end">
+          <div className="flex justify-between w-[16rem] px-9 py-3 pt-4 ">
             <Link href="/project">projects</Link>
             <Link href="/blog">blogs</Link>
             <Link href="https://github.com/dhritiman1">github</Link>
@@ -26,7 +26,8 @@ export default function Home() {
           <p className="py-5 text-4xl font-light">yo! i&apos;m dhritiman</p>
           <p>
             i&apos;m a <span className="w-[10rem]">{Math.floor(age)}</span>{" "}
-            years old developer and a student. ...
+            years old student who likes to play around with dev stuff and sounds
+            on a computer. ...
           </p>
           <Socials links={links} />
         </div>

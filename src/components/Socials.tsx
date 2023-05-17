@@ -1,8 +1,8 @@
-import { Link as L, Links as Ls } from "@/lib/links";
+import { Link as L, Links } from "@/lib/links";
 import Link from "next/link";
 
 type Props = {
-  links: Ls;
+  links: Links;
 };
 
 const Socials = ({ links }: Props) => {
@@ -15,8 +15,11 @@ const Socials = ({ links }: Props) => {
         })}
         .
       </p>
-      <p>
+      <p className="pb-2">
         send me a <Link href="mailto:dhritiman821@gmail.com">mail</Link>.
+      </p>
+      <p>
+        buy me a <Link href="https://www.buymeacoffee.com/wvrn">coffee</Link>
       </p>
     </>
   );
