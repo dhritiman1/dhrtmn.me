@@ -23,7 +23,7 @@ export default function Document() {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className="bg-white dark:bg-[#050505] text-black dark:text-[#e6e6e6d5]">
+      <body className="bg-[#eeeeee] dark:bg-[#303030] text-[#050505] dark:text-[#b7b7b7]">
         <Main />
         <NextScript />
       </body>

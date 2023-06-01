@@ -18,9 +18,9 @@ const MainLayout = ({ children, title }: Props) => {
       <main
         className={`flex bg-transparent min-h-screen flex-col items-center`}
       >
-        <div className="w-full top-0 fixed h-11 bg-gradient-to-b from-[#0000009f] via-[#0000002a] to-transparent -z-10"></div>
+        <div className="w-full top-0 fixed h-11 bg-gradient-to-b from-[#2525258f] via-[#30303073] to-transparent -z-10"></div>
         {children}
-        <div className="w-full bottom-0 fixed h-11 bg-gradient-to-t from-[#0000009f] via-[#0000002a] to-transparent"></div>
+        <div className="w-full bottom-0 fixed h-11 bg-gradient-to-t from-[#2525258f] via-[#30303073] to-transparent"></div>
       </main>
     </>
   );

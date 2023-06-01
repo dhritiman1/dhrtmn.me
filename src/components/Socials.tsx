@@ -16,10 +16,23 @@ const Socials = ({ links }: Props) => {
         .
       </p>
       <p className="pb-2">
-        send me a <Link href="mailto:dhritiman821@gmail.com">mail</Link>.
+        send me a{" "}
+        <Link
+          className="underline text-[#eeeeee]"
+          href="mailto:dhritiman821@gmail.com"
+        >
+          mail
+        </Link>
+        .
       </p>
       <p>
-        buy me a <Link href="https://www.buymeacoffee.com/wvrn">coffee</Link>
+        buy me a{" "}
+        <Link
+          className="underline text-[#eeeeee]"
+          href="https://www.buymeacoffee.com/wvrn"
+        >
+          coffee
+        </Link>
       </p>
     </>
   );
