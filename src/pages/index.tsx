@@ -26,7 +26,7 @@ export default function Home() {
         </div>
 
         <div className="w-full px-10 md:p-0 lg:p-0 md:w-[45rem] lg:w-[55rem]">
-          <p className="py-5 text-4xl font-light">yo! i&apos;m dhritiman</p>
+          <p className="py-5 text-2xl font-light">yo! i&apos;m dhritiman</p>
           <p>
             i&apos;m a <span className="w-[10rem]">{Math.floor(age)}</span>{" "}
             years old student who likes to play around with dev stuff and sounds
